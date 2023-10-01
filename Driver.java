@@ -40,7 +40,7 @@ public class Driver {
 			Polynomial poly = new Polynomial(new File("input.txt"));
 			System.out.println(poly.toString());
 			//saveToFile
-			p2.saveToFile("output.txt");
+			poly.saveToFile("output.txt");
 			System.out.println("Polynomial saved to output.txt");
 
 		} catch (IOException e) {
