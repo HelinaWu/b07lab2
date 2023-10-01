@@ -183,7 +183,6 @@ public class Polynomial {
         return polynomialString.toString();
     }
     
-    //this needs to be edited
     public void saveToFile(String fileName) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
             String polynomialString = this.toString(); // Get the string representation
